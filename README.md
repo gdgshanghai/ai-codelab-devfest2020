@@ -8,7 +8,7 @@
 >
 > CodeLab 相关内容请继续往下。
 
-<img src="/Users/xiao/Repository/ai-codelab-devfest2020/imgs/codelab-intro.JPG" alt="IMG_1751" style="zoom: 33%;" />
+<img src="./imgs/codelab-intro.JPG" alt="codelab-intro" style="zoom: 33%;" />
 
 ## 环境搭建
 
@@ -58,7 +58,7 @@
 
   - 将本仓库下 `libraries` 内所有内容拷贝到 Arduino 默认的库路径下
 
-    ![image-20201123203357663](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/arduino-lib-path.png)
+    ![image-20201123203357663](./imgs/arduino-lib-path.png)
 
     拷贝后路径为 `/Users/xxx/Arduino/libraries`
   
@@ -73,9 +73,9 @@
 
 1. 连接 sensor 板
 
-   ![image-20201123203713690](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/select-sensor-board.png)
+   ![image-select-sensor-board](./imgs/select-sensor-board.png)
 
-   ![image-20201123203805056](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/select-serial-port.png)
+   ![image-select-serial-port](./imgs/select-serial-port.png)
 
 2. 烧录程序
 
@@ -83,7 +83,7 @@
 
    > 烧录遇到问题请查阅文末 FQA 一节
 
-   ![image-20201123204301798](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/upload-capture.png)
+   ![image-upload-capture](./imgs/upload-capture.png)
 
 3. 开始采集数据
 
@@ -99,7 +99,7 @@
 
 1. 进入目录 `demo`
 2. 在当前目录下执行 `jupyterlab .` 点击 run 按钮执行所有代码
-3. ![image-20201126192054887](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/jupyter-lab.png)
+3. ![image-20201126192054887](./imgs/jupyter-lab.png)
 4. 经过上面步骤，最后将生成 `model.h` 的文件，这是识别物体的关键。
 
 ### 进行识别
@@ -110,7 +110,7 @@
 
 开始正常的识别示例：
 
-![image-20201126115625211](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/object-classify.png)
+![image-object-classify](./imgs/object-classify.png)
 
 
 
@@ -124,9 +124,9 @@
 
    这里出现的原因很可能是 TFlite 版本问题，打开 ***工具 ->管理库*** 查看 TFlite版本 
 
-   ![image-20201126105928070](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/arduino-lib1.png)
+   ![image-arduino-lib1](./imgs/arduino-lib1.png)
 
-   ![image-20201126110022356](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/arduino-lib2.png)
+   ![image-arduino-lib2](./imgs/arduino-lib2.png)
 
    按照上面截图安装 TensorFlowLite version 1.15版。precompiled和源码库都需要安装。因为arduino的invoke函会，会调用源码中的头文件内容。
    
@@ -134,6 +134,6 @@
 
    不是，你可以准备自己想识别的物体，分别采集数据进行命名，接下来修改
 
-   ![image-20201126193105098](/Users/xiao/Repository/ai-codelab-devfest2020/imgs/custom-detect.png)
+   ![image-20201126193105098](./imgs/custom-detect.png)
 
    为你想要识别的物体即可。
