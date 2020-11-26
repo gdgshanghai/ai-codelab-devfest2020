@@ -52,9 +52,11 @@
 
     https://downloads.arduino.cc/arduino-1.8.13-linux64.tar.xz
 
+    
     ```bash
-  tar -Jxvf arduino-1.8.13-linux64.tar.xz && cd arduino-1.8.13 && sudo bash install.sh
+    tar -Jxvf arduino-1.8.13-linux64.tar.xz && cd arduino-1.8.13 && sudo bash install.sh
     ```
+
 
   - 将本仓库下 `libraries` 内所有内容拷贝到 Arduino 默认的库路径下
 
@@ -65,7 +67,7 @@
   - 安装 Python 相关库
   
     执行 `pip install tensorflow pandas matplotlib jupyterlab`
-  
+
 
 ## 详细步骤
 
