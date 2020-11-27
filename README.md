@@ -139,3 +139,19 @@
    ![image-20201126193105098](./imgs/custom-detect.png)
 
    为你想要识别的物体即可。
+
+
+
+## 贡献人员
+
+对于本仓库作出贡献的人员，排名不分先后：
+
+<a href="https://github.com/YuchengWang">
+    <img src="https://avatars0.githubusercontent.com/u/6920532?s=400&u=86dad2d01f70485f2d72e2f0abfd27a22cc5a398&v=4" width="45px">
+</a>
+<a href="https://github.com/yuechuanx"> 
+    <img src="https://avatars3.githubusercontent.com/u/19339293?s=460&v=4" width="45px">
+</a>
+
+由于时间精力有限，内容难免有疏漏之处。欢迎大家通过提交 issue 或 pr 的方式对内容进行勘误，将会在贡献者里显示你的链接
+
