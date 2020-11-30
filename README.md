@@ -91,17 +91,38 @@
 
    打开 串口监视器，让 sensor 板对准备识别的物体，开始采集数据。
 
-   // 由于买的板子还没到，所以暂时不插入图片
+   ![image-custom-objects](./imgs/custom-objects.png)
+
+   将 sensor 板带有传感器的一侧对准需要识别的物体，打开 ***工具->串口监视器***
+
+   ![image-serial-monitor](./imgs/serial-monitor.png)
 
 4. 保存采集到的数据
 
    将采集到的数据拷贝到 `<物体名称>.csv`文件
+   
+   ![image-objects-csv-file](./imgs/objects-csv-file.png)
+   
+   ![image-objects-csv-content](./imgs/objects-csv-content.png)
+
+
 
 ### 训练模型
 
 1. 进入目录 `demo`
+
 2. 在当前目录下执行 `jupyterlab .` 点击 run 按钮执行所有代码
-3. ![image-20201126192054887](./imgs/jupyter-lab.png)
+
+3. ![image-jupyter-lab](./imgs/jupyter-lab.png)
+
+   ![image-read-data](./imgs/read-data.png)
+
+   ![image-train-model](./imgs/train-model.png)
+
+   ![image-run-with-test-data](./imgs/run-with-test-data.png)
+
+   ![image-header-file](./imgs/header-file.png)
+
 4. 经过上面步骤，最后将生成 `model.h` 的文件，这是识别物体的关键。
 
 ### 进行识别
@@ -110,11 +131,11 @@
 
 使用Arduino 打开文件 `object_color_capture.ino`, 依照上面 ***烧录程序*** 一节将程序烧录到板子上，接下来即可开始识别。
 
-开始正常的识别示例：
+打开 ***工具 -> 串口显示器***， 开始正常的识别示例：
 
 ![image-object-classify](./imgs/object-classify.png)
 
-
+> 文中截图中识别内容与实际你选择识别的物体相关，无需对应
 
 ## FQA
 
